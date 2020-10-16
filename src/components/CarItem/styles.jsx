@@ -16,7 +16,6 @@ export const Item = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 1;
         border: none;
         background: none;
     }    
@@ -33,6 +32,10 @@ export const Info = styled.section`
     justify-content: space-between;
     padding: 0 1rem;
     font-family: 'Helvetica';
+
+    a {
+        text-decoration: none;
+    }
 
     h2 {
         font-weight: 700;
